@@ -118,3 +118,102 @@
     background:white;
 }
 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height:80px;
+    width: 100%;
+    background-color:var(--darkgray);
+    color: white;
+    text-align: center;
+ }
+
+ .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {  
+    background: #125688;  
+    color: white;  
+  }  
+  .column {
+    float: left;
+    width: 400px;
+    padding: 100px;
+    height: 330px; 
+    margin: 100px;
+    margin-left: 400px;
+    margin-top: 50px ;
+  }
+  .column1 {
+    float: left;
+    width: 400px;
+    padding: 100px;
+    height: 330px; 
+    margin: 100px;
+    
+    margin-top: 50px ;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  
+/* Float four columns side by side */
+.columnService {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    margin:40px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .columnService {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
